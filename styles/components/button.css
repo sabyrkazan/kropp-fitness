@@ -18,3 +18,9 @@
   color: var(--color-light);
   background-color: transparent;
 }
+
+@media (max-width: 767px) {
+  .button {
+    padding-inline: 18px;
+  }
+}
