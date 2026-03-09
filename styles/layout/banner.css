@@ -28,7 +28,7 @@
 }
 
 .banner-title {
-  font-size: 360px;
+  font-size: min(18.75vw, 360px);
   line-height: 1;
 }
 
