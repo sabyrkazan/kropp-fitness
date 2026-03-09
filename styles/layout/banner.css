@@ -21,7 +21,7 @@
 
 .banner-info::before {
   content: '';
-  width: 194px;
+  width: min(10.1vw, 194px);
   aspect-ratio: 1;
   margin-right: 30px;
   background: url('/assets/icons/arrows/bold-arrow-down-right.svg') center/contain no-repeat;
