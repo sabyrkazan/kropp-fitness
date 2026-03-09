@@ -4,6 +4,7 @@
   align-items: center;
   column-gap: 20px;
   padding-inline: 32px;
+  min-height: var(--header-height);
 }
 
 .header-logo {
