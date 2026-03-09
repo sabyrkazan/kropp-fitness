@@ -21,7 +21,7 @@
 
 .banner-info::before {
   content: '';
-  width: min(10.1vw, 194px);
+  width: clamp(60px, 10.1vw, 194px);
   aspect-ratio: 1;
   margin-right: 30px;
   background: url('/assets/icons/arrows/bold-arrow-down-right.svg') center/contain no-repeat;
@@ -69,6 +69,17 @@
 
 @media (max-width: 1024px) {
   .banner {
+    row-gap: 10px;
     padding-inline: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-info {
+    margin-bottom: 5px;
+  }
+
+  .banner-info::before {
+    margin-right: 10px;
   }
 }
