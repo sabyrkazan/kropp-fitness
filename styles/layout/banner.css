@@ -1,0 +1,33 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-height: calc(100vh - var(--header-height));
+  padding: 36px 70px;
+  color: var(--color-light);
+}
+
+.banner-body {
+  text-transform: uppercase;
+}
+
+.banner-info {
+  display: flex;
+  align-items: end;
+  font-size: 30px;
+  line-height: 1.27;
+  font-weight: 700;
+}
+
+.banner-info::before {
+  content: '';
+  width: 194px;
+  aspect-ratio: 1;
+  margin-right: 30px;
+  background: url('/assets/icons/arrows/bold-arrow-down-right.svg') center/contain no-repeat;
+}
+
+.banner-title {
+  font-size: 360px;
+  line-height: 1;
+}
