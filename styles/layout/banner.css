@@ -66,3 +66,9 @@
 .banner-pagination-button:not(.is-current):hover::after {
   border-color: var(--color-light-gray);
 }
+
+@media (max-width: 1024px) {
+  .banner {
+    padding-inline: 15px;
+  }
+}
