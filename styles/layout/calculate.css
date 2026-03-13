@@ -74,11 +74,11 @@
 }
 
 .calculate-table :is(td, th):not(:last-child) {
-  border-right: 1px solid var(--color-light-gray);
+  border-right: var(--border-gray);
 }
 
 .calculate-table tbody td {
-  border-top: 1px solid var(--color-light-gray);
+  border-top: var(--border-gray);
 }
 
 .calculate-table tbody tr:last-child td:first-child {
