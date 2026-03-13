@@ -60,7 +60,7 @@
   height: 0.74em;
   aspect-ratio: 1;
   margin-left: 0.5em;
-  background: url('/assets/icons/arrows/bold-arrow-down-right.svg') center/contain no-repeat;
+  background: url('../../assets/icons/arrows/bold-arrow-down-right.svg') center/contain no-repeat;
   scale: -1 1;
 }
 
@@ -82,7 +82,7 @@
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url('/assets/icons/arrows/arrow-top-right.svg') center/70% no-repeat;
+  background: url('../../assets/icons/arrows/arrow-top-right.svg') center/70% no-repeat;
   border: var(--border);
   border-radius: 50%;
 }
