@@ -1,7 +1,5 @@
 .training-types {
   position: relative;
-  max-width: 1920px;
-  margin-inline: auto;
   padding-block: 70px 120px;
   background-color: var(--color-dark);
 }
