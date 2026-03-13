@@ -8,7 +8,8 @@
   border-radius: var(--border-radius);
 }
 
-.input::placeholder {
+.input::placeholder,
+select.input:invalid {
   color: var(--color-light-gray);
 }
 
