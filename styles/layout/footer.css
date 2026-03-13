@@ -126,3 +126,21 @@
     row-gap: 30px;
   }
 }
+
+@media (max-width: 767px) {
+  .footer-body {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-main {
+    padding-top: 50px;
+  }
+
+  .footer-header:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .footer-subscribe:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
