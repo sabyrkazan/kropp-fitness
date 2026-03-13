@@ -18,3 +18,23 @@
 .family-image {
   scroll-snap-align: start;
 }
+
+@media (max-width: 1024px) {
+  .family-image {
+    height: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .family-header {
+    padding-block: 80px 50px;
+  }
+
+  .family-body {
+    column-gap: 12px;
+  }
+
+  .family-image {
+    height: 180px;
+  }
+}
