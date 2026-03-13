@@ -87,3 +87,13 @@
   text-transform: uppercase;
   color: var(--color-light);
 }
+
+.join-us-form-body {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.join-us-form-input {
+  max-width: 400px;
+}
