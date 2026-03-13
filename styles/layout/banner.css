@@ -1,7 +1,7 @@
 .banner {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   min-height: calc(100vh - var(--header-height));
   padding: 36px 70px;
   color: var(--color-light);
@@ -13,7 +13,7 @@
 
 .banner-info {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   font-size: clamp(16px, 1.56vw, 30px);
   line-height: 1.27;
   font-weight: 700;
